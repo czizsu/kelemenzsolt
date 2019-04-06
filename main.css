@@ -173,6 +173,7 @@ footer small {
 @media (min-width: 768px) {
   footer {
     min-height: 7vh;
+    text-align: center;
   }
 }
 
