@@ -1,184 +1,355 @@
 /* =============================
 
+
+
     GENERAL STYLES
+
+
 
 =============================*/
 
+
+
 * {
+
   box-sizing: border-box;
+
 }
+
 /* Single-direction margin declaration to establish vertical rhythm. */
 
+
+
 h1,
+
 h2,
+
 p,
+
 img {
+
   margin-bottom: 1.5rem;
+
 }
+
 body {
+
   background: white font-family: 'Libre Baskerville', serif;
+
   font-size: 1.125rem;
+
   line-height: 1.5;
+
   color: #444349;
+
   text-align: center;
+
 }
+
 .status,
+
 .contact {
+
   width: 95%;
+
   margin: 1.5rem auto;
+
   padding: .5rem 1rem;
+
   text-align: center;
+
 }
+
 h1,
+
 h2 {
+
   font-family: 'Great Vibes', cursive;
+
 }
+
 h2 {
+
   font-size: 3rem;
+
 }
+
 a {
+
   text-decoration: none;
+
   color: #bd806e;
+
 }
+
 a:hover {
+
   color: #eda087;
+
   transition: color .15s ease-in-out;
+
 }
+
 /* =============================
+
+
 
     HEADER STYLES
 
+
+
 =============================*/
 
+
+
 .cover {
+
   background: url('https://i.imgur.com/darlQXV.jpg') no-repeat 100% center/cover;
+
   display: table;
+
   text-align: center;
+
   height: 100vh;
+
   width: 100vw;
+
 }
 
+
+
 @media (min-width: 768px) {
+
   .cover {
+
     background: url('https://i.imgur.com/darlQXV.jpg') no-repeat 100% center/cover;
+
   }
-}
-.hero-text-wrapper {
-  display: table-cell;
-  vertical-align: bottom;
-}
-.hero-text {
-  margin: 0 auto;
-  padding: .625rem;
-  color: hsla(0, 0%, 100%, .9);
-  background: hsla(100, 0%, 0%, .5);
-}
-.hero-text h1 {
-  font-size: 3.15rem;
-  color: #d2ba87;
-  margin-bottom: 0;
-  /* To negate the effect of the single-direction margin declaration. */
+
 }
 
+.hero-text-wrapper {
+
+  display: table-cell;
+
+  vertical-align: bottom;
+
+}
+
+.hero-text {
+
+  margin: 0 auto;
+
+  padding: .625rem;
+
+  color: hsla(0, 0%, 100%, .9);
+
+  background: hsla(100, 0%, 0%, .5);
+
+}
+
+.hero-text h1 {
+
+  font-size: 3.15rem;
+
+  color: #d2ba87;
+
+  margin-bottom: 0;
+
+  /* To negate the effect of the single-direction margin declaration. */
+
+}
+
+
+
 @media (min-width: 768px) {
+
   .hero-text {
+
     padding: 1.25rem;
+
     border-radius: 4px;
+
     width: 100%;
+
   }
+
+
 
   .hero-text h1 {
+
     font-size: 7rem;
+
   }
+
 }
+
+
 
 /* ==== COMPONENT STYLES ==== */
 
+
+
 .button {
+
   display: inline-block;
+
   border: 1px solid #8c8e9b;
+
   color: #8c8e9b;
+
   border-radius: 10px;
+
   padding-right: 140px;
+
   padding-left: 5px;
+
   margin: 5px;
+
   width: 100px;
+
   font-family: 'Open Sans', sans-serif;
+
   font-size: 1.25rem;
+
   letter-spacing: .15rem;
+
   vertical-align: middle;
+
 }
+
 .button:hover {
+
   border: 1px solid #b60e63;
+
 }
+
 /* =============================
+
+
 
         STATUS STYLES
 
+
+
 =============================*/
 
+
+
 .status {
+
   width: 100vw;
+
   text-align: left;
+
   font-color: #d2ba87;
+
   font-family: 'Muli', sans-serif;
+
 }
+
 .status h2 {
+
   font-family: 'Great Vibes', cursive;
+
   margin-top: 1rem;
+
   /* To account for the unequal margins compared to the previous section. */
+
   
+
   text-align: center;
+
 }
+
 .status p {
+
   font-style: italic;
+
 }
+
 .status ul {
+
   letter-spacing: .025rem;
+
 }
+
 @media (min-width: 768px) {
+
   .status-wrapper {
+
     width: 30vw;
+
     margin: 0 auto;
+
   }
+
 }
+
+
 
 /* =============================
 
+
+
         FOOTER STYLES
+
+
 
 =============================*/
 
+
+
 footer {
+
   height: 10vh;
+
   width: 100vw;
+
   background-color: #606060;
+
   color: #fff;
+
   font-family: 'Muli', sans-serif;
+
   display: table;
+
   text-align: center;
+
   font-size: .875rem;
+
 }
+
 .footer-wrapper {
+
   display: table-cell;
+
   vertical-align: middle;
+
   padding: .5rem 1rem;
+
 }
+
 footer p {
+
   margin-bottom: 0;
+
 }
+
 footer small {
+
   line-height: 1.5;
+
 }
+
 @media (min-width: 768px) {
+
   footer {
+
     min-height: 7vh;
+
     text-align: center;
+
   }
-  .footer-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-    }
+
 }
-
-
