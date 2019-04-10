@@ -34,7 +34,7 @@ img {
 
 body {
 
-  background: white font-family: 'Libre Baskerville', serif;
+  background: white font-family: 'Times New Roman', serif;
 
   font-size: 1.125rem;
 
@@ -64,7 +64,7 @@ h1,
 
 h2 {
 
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Times New Roman', cursive;
 
 }
 
@@ -208,7 +208,7 @@ a:hover {
 
   width: 100px;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
 
   font-size: 1.25rem;
 
@@ -244,13 +244,13 @@ a:hover {
 
   font-color: #d2ba87;
 
-  font-family: 'Muli', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
 
 }
 
 .status h2 {
 
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Times New Roman', cursive;
 
   margin-top: 1rem;
 
@@ -310,7 +310,7 @@ footer {
 
   color: #fff;
 
-  font-family: 'Muli', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
 
   display: table;
 
