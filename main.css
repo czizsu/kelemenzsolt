@@ -83,13 +83,13 @@ a {
 
   text-decoration: none;
 
-  color: #bd806e;
+  color:  #d2ba87;
 
 }
 
 a:hover {
 
-  color: #eda087;
+  color: #8c8e9b;
 
   transition: color .15s ease-in-out;
 
@@ -199,7 +199,7 @@ a:hover {
 
   display: inline-block;
 
-  border: 1px solid #8c8e9b;
+  border: 1px solid #d2ba87;
 
   color: #8c8e9b;
 
@@ -225,7 +225,7 @@ a:hover {
 
 .button:hover {
 
-  border: 1px solid #b60e63;
+  border: 1px solid #8c8e9b;
 
 }
 
