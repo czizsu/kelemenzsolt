@@ -36,7 +36,7 @@ body {
 
   background: white font-family: 'Times New Roman', serif;
 
-  font-size: 2.125rem;
+  font-size: 1.125rem;
 
   line-height: 1.5;
 
@@ -64,18 +64,13 @@ h1,
 
 h2 {
 
-  font-family: 'Times New Roman', serif;
-
-}
-h1 {
-
-  font-size: 5rem;
+  font-family: 'Times New Roman', cursive;
 
 }
 
 h2 {
 
-  font-size: 3rem;
+  font-size: 2rem;
 
 }
 
@@ -83,13 +78,13 @@ a {
 
   text-decoration: none;
 
-  color:  #d2ba87;
+  color: #bd806e;
 
 }
 
 a:hover {
 
-  color: #8c8e9b;
+  color: #eda087;
 
   transition: color .15s ease-in-out;
 
@@ -199,9 +194,9 @@ a:hover {
 
   display: inline-block;
 
-  border: 1px solid #d2ba87;
+  border: 1px solid #8c8e9b;
 
-  color: #d2ba87;
+  color: #8c8e9b;
 
   border-radius: 10px;
 
@@ -225,7 +220,7 @@ a:hover {
 
 .button:hover {
 
-  border: 1px solid #8c8e9b;
+  border: 1px solid #b60e63;
 
 }
 
@@ -255,7 +250,7 @@ a:hover {
 
 .status h2 {
 
-  font-family: 'Times New Roman', serif;
+  font-family: 'Times New Roman', cursive;
 
   margin-top: 1rem;
 
@@ -273,11 +268,6 @@ a:hover {
 
 }
 
-.status ul {
-
-  letter-spacing: .025rem;
-
-}
 
 @media (min-width: 768px) {
 
@@ -286,6 +276,8 @@ a:hover {
     width: 30vw;
 
     margin: 0 auto;
+    
+    font-size: 2rem;
 
   }
 
